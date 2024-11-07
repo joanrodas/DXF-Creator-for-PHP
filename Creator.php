@@ -80,6 +80,11 @@ class Creator {
     private $shapes = [];
 
     /**
+     * @var array Images collection
+     */
+    private $images = [];
+
+    /**
      * @var array Center offset
      */
     private $offset = [0, 0, 0];
