@@ -12,7 +12,7 @@
  * @see http://www.autodesk.com/techpubs/autocad/acad2000/dxf/
  */
 
-namespace adamasantares\dxf;
+namespace sirvelia\dxf;
 
 
 /**

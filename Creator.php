@@ -19,7 +19,7 @@
  *
  */
 
-namespace adamasantares\dxf;
+namespace sirvelia\dxf;
 
 // ini_set('display_errors',true);
 
@@ -748,7 +748,7 @@ class Creator {
 
     /**
      * Add polyline to current layer.
-     * @param array[float] $points Points array: [x, y, x2, y2, x3, y3, ...]
+     * @param array $points Points array: [x, y, x2, y2, x3, y3, ...]
      * @param int $flag Polyline flag (bit-coded); default is 0: 1 = Closed; 128 = Plinegen
      * @return $this
      * @see http://help.autodesk.com/cloudhelp/2016/ENU/AutoCAD-DXF/files/GUID-ABF6B778-BE20-4B49-9B58-A94E64CEFFF3.htm
